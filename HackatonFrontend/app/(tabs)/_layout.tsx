@@ -1,37 +1,27 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
-
-import { TabBarIcon } from '@/components/navigation/TabBarIcon';
-import { Colors } from '@/constants/Colors';
-import { useColorScheme } from '@/hooks/useColorScheme';
+import React, { useState } from 'react';
+import LoadingPage from '@/app/(tabs)/loading';
+import LoginPage from '@/app/(tabs)/login';
+import SettingPage from '@/app/(tabs)/setting';
+import HomePage from '@/app/(tabs)/index';
+import { dataContext, ContextStruct } from '@/config'
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
+  const [page, setPage] = useState('loading')
+
+  const sharedDatas : ContextStruct = ({
+    'page': page,
+    'setPage': setPage,
+    'userName': 'Omer',
+    'userImage': require('@/assets/images/person.png'),
+  })
 
   return (
-    <Tabs
-      screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        headerShown: false,
-      }}>
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: 'Home',
-          tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="explore"
-        options={{
-          title: 'Explore',
-          tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
-          ),
-        }}
-      />
-    </Tabs>
+    <dataContext.Provider value={sharedDatas}>
+      { (sharedDatas.page === 'home') ? <HomePage /> :
+        (sharedDatas.page === 'login') ? <LoginPage /> :
+        (sharedDatas.page === 'setting') ? <SettingPage /> :
+        <LoadingPage />
+      }
+    </dataContext.Provider>
   );
 }
