@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, TextInput } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
-export function MyInput({icon, handleInput, placeholder='', width=300, children: value} : {
+export default function MyInput({icon, handleInput, placeholder, width=300, children: value} : {
   children: string,
   handleInput:((text: string) => void),
   icon?: string,
@@ -20,6 +20,7 @@ export function MyInput({icon, handleInput, placeholder='', width=300, children:
         style={styles.myInput_input}
         onChangeText={handleInput}
         placeholder={placeholder}
+        placeholderTextColor='black'
         value={value}
       />
     </View>

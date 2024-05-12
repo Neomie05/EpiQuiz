@@ -1,15 +1,15 @@
 import React from 'react';
 import { StyleSheet, Image, Dimensions } from 'react-native';
 import { ThemedView } from '@/components/ThemedView';
-import useDataContext, { ContextStruct } from '@/config'
 
-export default function LoadingPage() {
-  const context = useDataContext()
-  const { width, height } = Dimensions.get('window');
-  const size = Math.min(width, height);
+export default function LoadingPage({setPage}:
+  {setPage: React.Dispatch<React.SetStateAction<string>>}
+) {
+  const { width, height } = Dimensions.get('window')
+  const size = Math.min(width, height)
 
   setTimeout(() => {
-    context.setPage('login')
+    setPage('login')
   }, 3000)
 
   return (
