@@ -7,29 +7,32 @@ import { ThemedView } from '@/components/ThemedView'
 import MyButton from '@/components/button'
 import { categoryList } from '@/config'
 
-export default function GamePage({setPage, category, userName, avatarId}:
+export default function GamePage({setPage, category, userName, avatarId, score, setScore}:
   {
     setPage: React.Dispatch<React.SetStateAction<string>>,
     userName: string,
     avatarId: number,
     category: number,
+    score: number,
+    setScore: React.Dispatch<React.SetStateAction<number>>,
   }
 ) {
   const [starting, setStarting] = useState(0)
   const [unCompt, setUnCompt] = useState(30)
   const [canSubmit, setCanSubmit] = useState(true)
   const [verify, setVerify] = useState(-1)
-  const [score, setScore] = useState(0)
   const [dataId, setDataId] = useState(0)
   const {questions} = categoryList[category]
-
 
   function func() {
     if (starting > 0) {
       setStarting(starting => starting - 1)
       if (starting === 1) {
         setUnCompt(30)
-        setDataId(Math.floor(Math.random() * questions.length))
+        if (dataId < questions.length - 1)
+          setDataId(dataId => dataId + 1)
+        else
+          setPage('over')
         setCanSubmit(true)
         setVerify(-1)
       }
@@ -64,8 +67,10 @@ export default function GamePage({setPage, category, userName, avatarId}:
       <View style={styles.body} >
 
         <View style={styles.header}>
-          <ThemedText>{questions[dataId].message}</ThemedText>
-          <ThemedText>{(starting > 0) ? starting : unCompt}</ThemedText>
+          <ThemedText style={{fontSize: 21, marginBottom: 22, color: 'black'}}>{questions[dataId].message}</ThemedText>
+          <View style={{backgroundColor: '#52fcf2', justifyContent: 'center', alignItems: 'center', width: 35, height: 35, borderRadius: 500}}>
+            <ThemedText style={{fontSize: 21, color: 'black',}}>{(starting > 0) ? starting : unCompt}</ThemedText>
+          </View>
         </View>
 
         <View style={{width: '80%', gap: 15}}>
@@ -101,7 +106,7 @@ const styles = StyleSheet.create({
     gap: 20,
   },
   header: {
-    backgroundColor: '#aaa',
+    backgroundColor: '#777',
     justifyContent: 'center',
     alignItems: 'center',
     width: '100%',

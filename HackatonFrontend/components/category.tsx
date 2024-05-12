@@ -57,5 +57,7 @@ const styles = StyleSheet.create({
   category_questions: {
     textAlign: 'right',
     fontSize: 12,
+    fontWeight: 'bold',
+    // color: '#52fcf2',
   },
 });
