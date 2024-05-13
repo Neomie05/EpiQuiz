@@ -1,0 +1,27 @@
+[
+    {
+        "message": "The /etc/shadow file in Linux is used to store:",
+        "questions": ["filesystem information", "various password information", "root user shell", "command aliases"],
+        "response": 2
+    },
+    {
+        "message": "What is the purpose of ‘at’ command?",
+        "questions": ["To execute a command/commands at a specific time.", "To execute a command/commands at a specific request.", "To execute a command/commands on a specific condition.", "To execute a command/commands only when the user has logged in."],
+        "response": 1
+    },
+    {
+        "message": "What is the login name of the administrator in Linux?",
+        "questions": ["root", "administrator", "admin", "All of the mentioned", "None of the mentioned"],
+        "response": 1
+    },
+    {
+        "message": "Which command can be used to display file contents in octal?",
+        "questions": ["od", "octal", "oshow", "oct"],
+        "response": 1
+    },
+    {
+        "message": "How to dump pod logs, with label name=myLabel (stdout) in Kubernetes",
+        "questions": ["kubectl log name=myLabel", "kubectl pod -l name=myLabel", "kubectl logs -l name=myLabel", "kubectl logs -l .name[*]=myLabel"],
+        "response": 3
+    }
+]

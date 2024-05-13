@@ -1,0 +1,645 @@
+[
+    {
+        "answers": {
+            "answer_a": "A Pod represents processes running on your Cluster",
+            "answer_b": "Pods are the simplest units in the Kubernetes object model that you create or deploy",
+            "answer_c": "A pod is the same as a container",
+            "answer_d": "You can have only 1 container running in 1 pod",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "DevOps",
+        "correct_answer": null,
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 962,
+        "multiple_correct_answers": "true",
+        "question": "Which of the following are true for a pod in Kubernetes?",
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Shut down the system",
+            "answer_b": "Reboot the system",
+            "answer_c": "Enter single user mode",
+            "answer_d": "Start the system without a display manager (GUI)",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Linux",
+        "correct_answer": null,
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 1069,
+        "multiple_correct_answers": "false",
+        "question": "What will happen If you run the command \"init 0\" in your terminal",
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "arc",
+            "answer_b": "zip",
+            "answer_c": "ps",
+            "answer_d": "tar",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Linux",
+        "correct_answer": "answer_d",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 34,
+        "multiple_correct_answers": "false",
+        "question": "Which command is used to create file archives in Linux?",
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "scriptName “Arg1” “Arg2”….”Argn” and can be accessed inside the script as $1 , $2 .. $n.",
+            "answer_b": "scriptName -arg “Arg1” “Arg2”….”Argn” and can be accessed inside the script as $1 , $2 .. $n.",
+            "answer_c": "scriptName \"Arg1 Arg2….Argn” and can be accessed inside the script as $1 , $2 .. $n.",
+            "answer_d": "scriptName “Arg1” “Arg2”….”Argn” and can be accessed inside the script as $Arg1 , $Arg2 .. $Argn.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Linux",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 752,
+        "multiple_correct_answers": "false",
+        "question": "How will you pass and access arguments to a script in Linux/Bash?",
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "mysql_connect()",
+            "answer_b": "mysql_query()",
+            "answer_c": "mysql_close()",
+            "answer_d": "None of the mentioned",
+            "answer_e": "mysql_create()",
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": null,
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": "PHP uses mysql_query function to create a MySQL database.",
+        "id": 764,
+        "multiple_correct_answers": "false",
+        "question": "Which of the following method can be used to create a MySql database using PHP?",
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "The size of data items",
+            "answer_b": "The size of database",
+            "answer_c": "The size of file",
+            "answer_d": "The size of record",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "SQL",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 427,
+        "multiple_correct_answers": "false",
+        "question": "What is Granularity?",
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Set of library enriched with fucntions",
+            "answer_b": "An open source CMS (Content Management System)",
+            "answer_c": "Framework for designing dynamic pages",
+            "answer_d": "framework and distribution system for reusable PHP components",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "",
+        "correct_answer": "answer_b",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 106,
+        "multiple_correct_answers": "false",
+        "question": "What is WordPress in PHP?",
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "$ docker ter 109cb6nw",
+            "answer_b": "$ docker stop -ls 109cb6nw",
+            "answer_c": "$ docker stop 109cb6nw",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Docker",
+        "correct_answer": null,
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 852,
+        "multiple_correct_answers": "false",
+        "question": "How to stop a container with container id mentioned in the command?",
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "No limit",
+            "answer_b": "OS specific",
+            "answer_c": "65534",
+            "answer_d": "128",
+            "answer_e": "2’147’483’648",
+            "answer_f": null
+        },
+        "category": "SQL",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Hard",
+        "explanation": null,
+        "id": 338,
+        "multiple_correct_answers": "false",
+        "question": "What is the maximum size of a row in a MyISAM table?",
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Action",
+            "answer_b": "url",
+            "answer_c": "name",
+            "answer_d": "Method",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Hard",
+        "explanation": null,
+        "id": 444,
+        "multiple_correct_answers": "false",
+        "question": "Which of following is not an attribute of <form> tag",
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "SGMT",
+            "answer_b": "None Of These",
+            "answer_c": "SGML",
+            "answer_d": "SGMD",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 445,
+        "multiple_correct_answers": "false",
+        "question": "HTML Is a subset of",
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "4, 2 & 1 respectively for r, w & x.",
+            "answer_b": "4, 2 & 1 respectively for w, r & x.",
+            "answer_c": "4, 2 & 1 respectively for x, w & x.",
+            "answer_d": "4, 2 & 1 respectively for r, x & w.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Linux",
+        "correct_answer": null,
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 693,
+        "multiple_correct_answers": "false",
+        "question": "What are the respective octal value for the permission bits?",
+        "tags": [
+            {
+                "name": "BASH"
+            },
+            {
+                "name": "Linux"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "<h6>",
+            "answer_b": "<head>",
+            "answer_c": "<h1>",
+            "answer_d": "<heading>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 443,
+        "multiple_correct_answers": "false",
+        "question": "What is the HTML Tag for the largest heading",
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Hyper text transfer package",
+            "answer_b": "Hyphenation text test program",
+            "answer_c": "Hyper text transfer protocol",
+            "answer_d": "none of the above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Hard",
+        "explanation": null,
+        "id": 514,
+        "multiple_correct_answers": "false",
+        "question": "What is the full form of HTTP?",
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "It helps you setup Ansible on the master server",
+            "answer_b": "It helps you install Ansible on all of your servers",
+            "answer_c": "It shows you the information that the Ansible master server has about a host",
+            "answer_d": "It sets up the connection between the master and the worker nodes",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "DevOps",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 1045,
+        "multiple_correct_answers": "false",
+        "question": "What does the Ansible setup module do?",
+        "tags": [
+            {
+                "name": "DevOps"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "edit",
+            "answer_b": "notepad",
+            "answer_c": "vi",
+            "answer_d": "bcdedit",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Linux",
+        "correct_answer": "answer_c",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 48,
+        "multiple_correct_answers": "false",
+        "question": "Which of the answers listed below refers to a command used for invoking a text editor in Unix-like operating systems?",
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "<nav>",
+            "answer_b": "<navigate>",
+            "answer_c": "<navigation>",
+            "answer_d": "<navlink>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 160,
+        "multiple_correct_answers": "false",
+        "question": "Which HTML element defines navigation links?",
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Inside the wp-admin folder",
+            "answer_b": "Inside the wp-content folder",
+            "answer_c": "In the root directory of the WordPress installation",
+            "answer_d": "In the wp-content/config folder",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "CMS",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 296,
+        "multiple_correct_answers": "false",
+        "question": "Where is thewp_config.php file located?",
+        "tags": [
+            {
+                "name": "WordPress"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "SQL",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 349,
+        "multiple_correct_answers": "false",
+        "question": "The database development lifecycle is very important to the successful implementation of a database system.",
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Etcd",
+            "answer_b": "Flanneld",
+            "answer_c": "Scheduler",
+            "answer_d": "Kubectl",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "DevOps",
+        "correct_answer": null,
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 895,
+        "multiple_correct_answers": "false",
+        "question": "_______ manages the assigning nodes to pods depending on resource availability.",
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "tip": null
+    }
+]

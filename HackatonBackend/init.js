@@ -18,6 +18,7 @@ async function run() {
     const database = client.db('epiquizdb');
     const users = database.collection('users');
     const quizmodele = database.collection('quizmodele');
+    const rooms = database.collection('rooms');
     console.log("You successfully connected to MongoDB!");
   } finally {
     // Ensures that the client will close when you finish/error

@@ -1,0 +1,651 @@
+[
+    {
+        "answers": {
+            "answer_a": "$FILES['userfile']['error']",
+            "answer_b": "$_FILES['userfile = error']",
+            "answer_c": "$_FILES['userfile']['error']",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 593,
+        "multiple_correct_answers": "false",
+        "question": "How can we get the error when there is a problem with uploading a file?",
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "/*This comment has more than one line*/",
+            "answer_b": "<!--This comment has more than one line-->",
+            "answer_c": "//This comment has more than one line//",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 986,
+        "multiple_correct_answers": "false",
+        "question": "How to insert a comment that has more than one line?",
+        "tags": [
+            {
+                "name": "JavaScript"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "kubectl create secret generic db-user-pass --from-file=./username.txt --from-file=./password.txt",
+            "answer_b": "kubectl generate secret generic db-user-pass --from-file=./username.txt --from-file=./password.txt",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "DevOps",
+        "correct_answer": null,
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 942,
+        "multiple_correct_answers": "false",
+        "question": "How do you create secrets in Kubernetes?",
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Shell built in commands are called as internal commands.",
+            "answer_b": "Shell commands which are executed on the local machine are called internal commands.",
+            "answer_c": "Every command which comes with the default installation of Linux is called internal command with some small exceptions like really old commands.",
+            "answer_d": "Every command which has been developed by the new generation of Linux is considered an internal command.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Linux",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 688,
+        "multiple_correct_answers": "false",
+        "question": "What is an internal command?",
+        "tags": [
+            {
+                "name": "BASH"
+            },
+            {
+                "name": "Linux"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Applying wax directly",
+            "answer_b": "Pre-rinsing the car",
+            "answer_c": "Skipping the drying step",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 1116,
+        "multiple_correct_answers": "false",
+        "question": "Which of the following is an important step before washing your car's exterior?",
+        "tags": [
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "HTML"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "ps –p 1",
+            "answer_b": "find 1",
+            "answer_c": "top 1",
+            "answer_d": "get 1",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Linux",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 645,
+        "multiple_correct_answers": "false",
+        "question": "How can we find the process name from its process id? Assume the Proccess ID is 1",
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "SQL",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 422,
+        "multiple_correct_answers": "false",
+        "question": "Is the NULL value treated as 0?",
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "return the lowest sales value",
+            "answer_b": "the query will generate an error",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "SQL",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 370,
+        "multiple_correct_answers": "false",
+        "question": "What will be the output of the query SELECT MINIMUM (amount) FROM sales;",
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "adding data",
+            "answer_b": "manage users",
+            "answer_c": "to select data",
+            "answer_d": "to change data",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "SQL",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 208,
+        "multiple_correct_answers": "false",
+        "question": "INSERT keyword is used for:",
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "description",
+            "answer_b": "id",
+            "answer_c": "alt",
+            "answer_d": "name",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 524,
+        "multiple_correct_answers": "false",
+        "question": "Which attribute is used with an img tag to display the text if image could not load in browser?",
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Docker Swarn",
+            "answer_b": "Docker Hub",
+            "answer_c": "Docker Cluster",
+            "answer_d": "Docker Cloud",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Docker",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 174,
+        "multiple_correct_answers": "false",
+        "question": "You can define and run multiple Docker containers using:",
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "SELECT",
+            "answer_b": "SELECT TOP",
+            "answer_c": "EXTRACT",
+            "answer_d": "SELECT SPECIFIC",
+            "answer_e": "LIMIT",
+            "answer_f": null
+        },
+        "category": "SQL",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "true",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 224,
+        "multiple_correct_answers": "false",
+        "question": "Which command is used to specify the number of records to return?",
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "SMALLINT",
+            "answer_b": "DECIMAL(18,4)",
+            "answer_c": "VARCHAR(32)",
+            "answer_d": "BIGINT",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "SQL",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 238,
+        "multiple_correct_answers": "false",
+        "question": "Which of the following is the best MySQL data type for currency values?",
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "kubectl info deployment my-dep",
+            "answer_b": "kubectl get deployment my-dep",
+            "answer_c": "kubectl describe deployment my-dep",
+            "answer_d": "kubectl ls deployment my-dep",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Linux",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 726,
+        "multiple_correct_answers": "false",
+        "question": "How to list a particular Kubernetes deployment?",
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "LILO means linux loader, which loads the kernel into memory and starts the OS.",
+            "answer_b": "LILO means linux loader, which loads the OS into memory and starts the GUI.",
+            "answer_c": "LILO means linux loader, which loads the GUI into memory so the user can see what's going on.",
+            "answer_d": "LILO means linux loader, which loads the software into memory and starts the kernel then the OS.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Linux",
+        "correct_answer": null,
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Hard",
+        "explanation": null,
+        "id": 704,
+        "multiple_correct_answers": "false",
+        "question": "What is LILO w.r.t linux?",
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "The Ping of Death is an occurrence when sending packets are reassembled, are too large for the system to understand.",
+            "answer_b": "The Ping of Death is capturing and deciphering traffic on a network.",
+            "answer_c": "The Ping of Death can be set in wordpress under admin settings.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "CMS",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": null,
+        "id": 343,
+        "multiple_correct_answers": "false",
+        "question": "What is the Ping of Death?",
+        "tags": [
+            {
+                "name": "WordPress"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "Hue",
+            "answer_b": "Grayscale",
+            "answer_c": "Lightness",
+            "answer_d": "Saturation",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "Code",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Hard",
+        "explanation": null,
+        "id": 481,
+        "multiple_correct_answers": "false",
+        "question": "Intensity of a color can be described through",
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "ansible your_server -m setup -a field=*hostname*",
+            "answer_b": "ansible your_server -m env -a filter=*hostname*",
+            "answer_c": "ansible your_server -m setup -a filter=*hostname*",
+            "answer_d": null,
+            "answer_e": "ansible your_server -m setup -a get=*hostname*",
+            "answer_f": null
+        },
+        "category": "DevOps",
+        "correct_answer": "answer_a",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Easy",
+        "explanation": null,
+        "id": 1055,
+        "multiple_correct_answers": "false",
+        "question": "Which command would you use to get the hostname of a remote host with Ansible",
+        "tags": [
+            {
+                "name": "DevOps"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "getMessage()",
+            "answer_b": "getCode()",
+            "answer_c": "getTrace()",
+            "answer_d": "getTraceAsString()",
+            "answer_e": "getString()",
+            "answer_f": "getTraceString()"
+        },
+        "category": "Code",
+        "correct_answer": null,
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": null,
+        "difficulty": "Medium",
+        "explanation": "getTraceAsString() method of Exception class returns formated string of trace.",
+        "id": 766,
+        "multiple_correct_answers": "false",
+        "question": "Which of the following method of Exception class returns formated string of trace?",
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "tip": null
+    },
+    {
+        "answers": {
+            "answer_a": "pwd",
+            "answer_b": "ls",
+            "answer_c": "list",
+            "answer_d": "print",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "category": "bash",
+        "correct_answer": "answer_b",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "description": "list the contents of a folder",
+        "difficulty": "Easy",
+        "explanation": "ls lists the contents of the folder",
+        "id": 2,
+        "multiple_correct_answers": "false",
+        "question": "How to list the contents of a folder?",
+        "tags": [
+            {
+                "name": "Linux"
+            },
+            {
+                "name": "BASH"
+            }
+        ],
+        "tip": null
+    }
+]

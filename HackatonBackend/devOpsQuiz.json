@@ -1,0 +1,27 @@
+[
+    {
+        "message": "Which Process Validates And Configures Data For The Api Objects Like Pods, Services?",
+        "questions": ["kube-apiserver process validates and configures data for the api objects.", "kube-apiserver process validates and configures data for the gui objects.", "kube-apiserver process validates and configures data for the cli objects."],
+        "reponse": 1
+    },
+    {
+        "message": "_______ manages the assigning nodes to pods depending on resource availability.",
+        "questions": ["Etcd", "Flanneld", "Scheduler", "Kubectl"],
+        "reponse": 3
+    },
+    {
+        "message": "What are Ansible ad-hoc commands?",
+        "questions":["Ansible ad-hoc commands are commands which helps you execute simple tasks without the need of creating playbooks", "Ansible ad-hoc commands are also known as Ansible playbooks"],
+        "reponse":1
+    },
+    {
+        "message": "Kubernetes is written in",
+        "questions":["C++", "Go", "Python", "Java spring framework"],
+        "reponse":2
+    },
+    {
+        "message": "To create a new deployment in kubernetes, use the command",
+        "questions": ["kubernetes set deployment", "kubernetes get deployment", "kubectl run", "kubectl deploy"],
+        "reponse":3
+    }
+]
